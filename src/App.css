@@ -1,38 +1,54 @@
-.App {
+body{
+  background-color: antiquewhite;
+  background-image: url("/photo_2024-02-29_01-41-03.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.App{
+  border:2px solid white;
+  margin: 150px 30%;
+  padding: 50px;
   text-align: center;
+  border-radius: 20px;
+  background-color: white;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App h2{
+color: #7d62a0;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App ul{
+  list-style: "✔️";
+  list-style: "⚪";
+cursor: pointer;
+font-size: 22px;
+margin: 20px;
 }
+.App input{
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  margin: 20px;
+  background-color: #cfabfe;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+}
+.App button{
+  display: block;
+  margin: auto;
+  width: 150px;
+  height: 40px;
+  background-color:#cfabfe;
+  border-radius: 10px;
+  border: 0;
+  
+}
+.App ul li{
+  word-wrap: break-word;
+}
+.diffstyle{
+  list-style: "🟣";
+  text-decoration: line-through;
+}
+.d{
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
